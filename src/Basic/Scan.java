@@ -9,6 +9,9 @@ public class Scan {
 		int a;
 		float f;
 		double d;
+		boolean b;
+		char c='g';
+		String s1;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the number:");
 		a=s.nextInt();
@@ -19,5 +22,16 @@ public class Scan {
 		System.out.println("Enter the number:");
 		d=s.nextDouble();
 		System.out.println("d="+d);
+		System.out.println("Enter the number:");
+		b=s.nextBoolean();
+		System.out.println("b="+b);
+		System.out.println("Enter the string:");
+		s1=s.next();
+		System.out.println("s1="+s1);
+		s.nextLine();
+		System.out.println("Enter the string:");
+		s1=s.nextLine();
+		System.out.println("s1="+s1);
+		
 	}
 }
